@@ -1,4 +1,4 @@
-# LoadingView
+# LoadingView [![GitHub license](https://img.shields.io/github/license/muramrr/LoadingView?color=orange)](https://github.com/muramrr/Kudago-Application/blob/master/LICENSE) [![](https://img.shields.io/badge/minSDK-14-green)](https://shields.io/)
 
 Custom loading view based on dribbble shot
 
