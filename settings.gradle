@@ -1,0 +1,3 @@
+include ':loadingview'
+include ':app'
+rootProject.name = "LoadingView"
