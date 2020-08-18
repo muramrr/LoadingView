@@ -1,4 +1,4 @@
-# LoadingView
+# LoadingView [![GitHub license](https://img.shields.io/github/license/muramrr/LoadingView?color=orange)](https://github.com/muramrr/Kudago-Application/blob/master/LICENSE) [![](https://img.shields.io/badge/minSDK-14-green)](https://shields.io/)
 
 Custom loading view based on dribbble shot
 
@@ -6,7 +6,7 @@ Custom loading view based on dribbble shot
 
 Originally based on this [Dribbble shot](https://dribbble.com/shots/5095383-Loader-Animation).
 
-<a href="https://dribbble.com/shots/8154883-Pizza-order-system">
+<a href="https://dribbble.com/shots/5095383-Loader-Animation">
   <img alt="Design on Dribbble" src="https://github.com/muramrr/misc/blob/master/dribbble.png" width="200" height="80" hspace="15" />
 </a>
 
