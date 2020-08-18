@@ -2,7 +2,7 @@
 
 Custom loading view based on dribbble shot
 
-<img src="/untitled.gif" alt="sample" title="sample" align="right" vspace="52" height="500"/>
+<img src="/sample.gif" alt="sample" title="sample" align="right" vspace="52" height="500"/>
 
 Originally based on this [Dribbble shot](https://dribbble.com/shots/5095383-Loader-Animation).
 
@@ -25,7 +25,7 @@ allprojects {
 Add implementation in your app.gradle
 ```gradle
 dependencies {
-   implementation 'com.github.muramrr:LoadingView:1.0'
+   implementation 'com.github.muramrr:LoadingView:1.1'
 }
 ```
 
