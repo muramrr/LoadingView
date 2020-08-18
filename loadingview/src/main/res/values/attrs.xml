@@ -10,9 +10,9 @@
   -->
 
 <resources>
-
+	
 	<declare-styleable name="LoadingView">
-		<attr name="loadStrokeColor" format="color" />
+		<attr name="loadStrokeColor" format="color|reference" />
 		<attr name="loadStrokeWidth" format="dimension"/>
 	</declare-styleable>
 
