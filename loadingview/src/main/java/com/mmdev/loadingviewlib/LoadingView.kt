@@ -89,7 +89,7 @@ class LoadingView @JvmOverloads constructor(
 	private val animatorSet = AnimatorSet()
 	
 	//rotating whole view
-	private val viewRotateAnimator = ValueAnimator.ofFloat(0f, 360f).apply {
+	private fun viewRotateAnimator() = ValueAnimator.ofFloat(0f, 360f).apply {
 		duration = 1600
 		interpolator = LinearInterpolator()
 		repeatCount = ValueAnimator.INFINITE
@@ -98,7 +98,7 @@ class LoadingView @JvmOverloads constructor(
 	}
 	
 	//animate 3 sweeps inside view
-	private val angleAnimator = ValueAnimator.ofFloat(5f, 105f).apply {
+	private fun angleAnimator() = ValueAnimator.ofFloat(5f, 105f).apply {
 		duration = 800
 		// god given custom interpolator
 		interpolator = PathInterpolatorCompat.create(1f, 0f, 0f, 1f)
@@ -167,7 +167,7 @@ class LoadingView @JvmOverloads constructor(
 		// auto start animation on pre-draw stage
 		// no need to toggle
 		animatorSet.cancel()
-		animatorSet.playTogether(angleAnimator, viewRotateAnimator)
+		animatorSet.playTogether(angleAnimator(), viewRotateAnimator())
 		animatorSet.start()
 	}
 	
