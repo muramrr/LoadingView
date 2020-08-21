@@ -25,7 +25,7 @@ allprojects {
 Add implementation in your app.gradle
 ```gradle
 dependencies {
-   implementation 'com.github.muramrr:LoadingView:1.1'
+   implementation 'com.github.muramrr:LoadingView:1.2'
 }
 ```
 
